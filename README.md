@@ -1,3 +1,4 @@
 # agent-weather-forecast-ollama
-EN / Ollama LLM agent with Open-Meteo weather forecast tool. 
-PT / Agente LLM com Ollama e tool de previsão do tempo via Open-Meteo.
+**PT** | Agente de IA usando Ollama com function calling para obter previsão do tempo via Open-Meteo. <br><br>
+**EN** | AI agent using Ollama with tool calling to retrieve weather forecasts from the Open-Meteo API.<br><br>
+

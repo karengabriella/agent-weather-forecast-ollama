@@ -99,11 +99,6 @@ cd agent-weather-forecast-ollama
 
 ## 2️⃣ Instalar dependências
 
-```
-pip install -r requirements.txt
-```
-
-Caso não exista `requirements.txt`:
 
 ```
 pip install requests

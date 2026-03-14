@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.cache.sqlite
+
+log/*.log
+log/*.json
+
+.vscode/
+.env

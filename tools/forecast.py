@@ -18,7 +18,7 @@ def fetch_weather_data(lat, lon, days_ahead):
         "timezone": "auto",
         "forecast_days": days_ahead
     }
-
+     
     response = requests.get(url, params=params)
     response = response.json()
 

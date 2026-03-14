@@ -3,6 +3,7 @@ from services.format_weather import format_location
 from config import GEOCODING_BASE_URL, REQUEST_TIMEOUT
 
 def geocode_city(city: str, count: int = 1, language: str = "pt") -> dict | None:
+ 
     url = GEOCODING_BASE_URL
     params = {
         "name": city,
@@ -14,6 +15,7 @@ def geocode_city(city: str, count: int = 1, language: str = "pt") -> dict | None
     response = requests.get(url, params=params, timeout=REQUEST_TIMEOUT)
     response.raise_for_status()
 
+
     data = response.json()
     results = data.get("results")
 
@@ -22,12 +24,12 @@ def geocode_city(city: str, count: int = 1, language: str = "pt") -> dict | None
 
     place = results[0]
 
-    return {
+    return (
   
         place.get("latitude"),
         place.get("longitude"),
         format_location(place)
-    }
+    )
 
 
 if __name__ == "__main__":

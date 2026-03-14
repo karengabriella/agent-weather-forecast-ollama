@@ -4,7 +4,7 @@
 ![Ollama](https://img.shields.io/badge/LLM-Ollama-green)
 ![API](https://img.shields.io/badge/API-Open--Meteo-orange)
 
-**PT** | Agente simples de IA usando Ollama com tool/function calling para obter previsão do tempo via Open-Meteo.
+**PT** | Agente simples de IA usando Ollama com tool/function calling para obter previsão do tempo via Open-Meteo.<br>
 **EN** | Simple AI agent using Ollama with tool/function calling to retrieve weather forecasts from the Open-Meteo API.
 
 ---
@@ -99,11 +99,6 @@ cd agent-weather-forecast-ollama
 
 ## 2️⃣ Instalar dependências
 
-```
-pip install -r requirements.txt
-```
-
-Caso não exista `requirements.txt`:
 
 ```
 pip install requests
